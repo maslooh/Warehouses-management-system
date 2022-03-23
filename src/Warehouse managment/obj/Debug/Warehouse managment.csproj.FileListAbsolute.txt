@@ -1,0 +1,19 @@
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\bin\Debug\Warehouse managment.exe.config
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\bin\Debug\Warehouse managment.exe
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\bin\Debug\Warehouse managment.pdb
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.dll
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.SqlServer.dll
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.xml
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.SqlServer.xml
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.AssemblyReference.cache
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.SuggestedBindingRedirects.cache
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.Properties.Resources.resources
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.GenerateResource.cache
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.CoreCompileInputs.cache
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.CopyComplete
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.exe
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.pdb
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.Form1.resources
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.addWareHouseForm.resources
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.updateWh.resources
+C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.kindsForm.resources
