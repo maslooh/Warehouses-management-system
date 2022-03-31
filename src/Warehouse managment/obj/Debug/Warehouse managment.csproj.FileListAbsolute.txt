@@ -17,3 +17,23 @@ C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse mana
 C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.addWareHouseForm.resources
 C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.updateWh.resources
 C:\iti\linq&ado&entity framework\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.kindsForm.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\Warehouse managment.exe.config
+C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\Warehouse managment.exe
+C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\Warehouse managment.pdb
+C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.dll
+C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.SqlServer.dll
+C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.xml
+C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.SqlServer.xml
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.AssemblyReference.cache
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.SuggestedBindingRedirects.cache
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.addWareHouseForm.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.Form1.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.updateWh.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.Properties.Resources.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.GenerateResource.cache
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.CoreCompileInputs.cache
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.CopyComplete
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.exe
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.pdb
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.kinds.AddKind.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.kinds.UpdateKind.resources
