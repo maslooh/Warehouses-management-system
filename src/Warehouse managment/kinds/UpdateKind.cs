@@ -39,7 +39,7 @@ namespace Warehouse_managment.kinds
             Warehouse warehouse = model.Warehouses.SingleOrDefault(c => c.Name == comboWarehouseChoose.Text);
             if (warehouse != null)
             {
-                comboChoseKind.DataSource = model.Kinds.Select(c => c.Name).Where()
+                comboChoseKind.DataSource = model.Kinds.Where(c => c);
             }
             else
             {
