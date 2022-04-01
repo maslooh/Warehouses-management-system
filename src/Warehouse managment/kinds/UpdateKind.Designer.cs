@@ -81,6 +81,7 @@
             this.btnUpdate.TabIndex = 31;
             this.btnUpdate.Text = "تعديل";
             this.btnUpdate.UseVisualStyleBackColor = true;
+            this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
             // 
             // txtkindCode
             // 

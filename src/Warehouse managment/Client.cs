@@ -18,11 +18,11 @@ namespace Warehouse_managment
 
         public string Name { get; set; }
 
-        public int Telephone { get; set; }
+        public string Telephone { get; set; }
 
-        public int Fax { get; set; }
+        public string Fax { get; set; }
 
-        public int Mobile { get; set; }
+        public string Mobile { get; set; }
 
         public string Email { get; set; }
 

@@ -13,6 +13,7 @@ namespace Warehouse_managment.kinds
     public partial class UpdateKind : Form
     {
         Model1 model=new Model1();
+  
         public UpdateKind()
         {
             InitializeComponent();
@@ -39,13 +40,40 @@ namespace Warehouse_managment.kinds
             Warehouse warehouse = model.Warehouses.SingleOrDefault(c => c.Name == comboWarehouseChoose.Text);
             if (warehouse != null)
             {
-                comboChoseKind.DataSource = model.Kinds.Where(c => c);
+                comboChoseKind.DataSource = model.Warehouses.Where(c => c.WarehouseID==warehouse.WarehouseID).SelectMany(c=>c.Kinds).Select(c=>c.Name).ToList();
             }
             else
             {
                 comboChoseKind.DataSource = null;
             }
                 
+        }
+
+        void loadKinds()
+        {
+            Warehouse warehouse = model.Warehouses.SingleOrDefault(c => c.Name == comboWarehouseChoose.Text);
+            comboChoseKind.DataSource = model.Warehouses.Where(c => c.WarehouseID == warehouse.WarehouseID).SelectMany(c => c.Kinds).Select(c => c.Name).ToList();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            Kind myKind = model.Warehouses.SingleOrDefault(w => w.Name == comboWarehouseChoose.Text).Kinds.SingleOrDefault(k => k.Name == comboChoseKind.Text);
+            if (myKind != null)
+            {
+                myKind.Name = txtKindName.Text;
+                myKind.code = txtkindCode.Text;
+                myKind.entranceDate = entranceDate.Value;
+                myKind.expirationDate = expirationDate.Value;
+                myKind.Measurments = measurement.Text;
+                model.SaveChanges();
+                loadKinds();
+                Form1 form = (Form1)Application.OpenForms["Form1"];
+                form.loadData();
+                this.Close();
+            }
+            else
+                MessageBox.Show("خطأ");
+           
         }
     }
 }

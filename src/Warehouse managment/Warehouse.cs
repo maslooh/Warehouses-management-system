@@ -12,6 +12,8 @@ namespace Warehouse_managment
         public Warehouse()
         {
             Kinds = new HashSet<Kind>();
+            Suppliers = new HashSet<Supplier>();
+            Clients = new HashSet<Client>();
         }
 
         public int WarehouseID { get; set; }
@@ -22,15 +24,13 @@ namespace Warehouse_managment
 
         public string ManagerName { get; set; }
 
-        public int? Clients_ClientID { get; set; }
-
-        public int? Suppliers_SupplierID { get; set; }
-
-        public virtual Client Client { get; set; }
-
-        public virtual Supplier Supplier { get; set; }
-
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Kind> Kinds { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Supplier> Suppliers { get; set; }
+
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Client> Clients { get; set; }
     }
 }

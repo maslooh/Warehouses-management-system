@@ -8,7 +8,7 @@ namespace Warehouse_managment
     public partial class Model1 : DbContext
     {
         public Model1()
-            : base("name=Model11")
+            : base("name=Model12")
         {
         }
 
@@ -22,8 +22,8 @@ namespace Warehouse_managment
         {
             modelBuilder.Entity<Client>()
                 .HasMany(e => e.Warehouses)
-                .WithOptional(e => e.Client)
-                .HasForeignKey(e => e.Clients_ClientID);
+                .WithMany(e => e.Clients)
+                .Map(m => m.ToTable("WarehousesClients").MapLeftKey("Clients_ClientID").MapRightKey("Warehouses_WarehouseID"));
 
             modelBuilder.Entity<Kind>()
                 .HasMany(e => e.Warehouses)
@@ -32,8 +32,8 @@ namespace Warehouse_managment
 
             modelBuilder.Entity<Supplier>()
                 .HasMany(e => e.Warehouses)
-                .WithOptional(e => e.Supplier)
-                .HasForeignKey(e => e.Suppliers_SupplierID);
+                .WithMany(e => e.Suppliers)
+                .Map(m => m.ToTable("SuppliersWarehouses").MapLeftKey("Suppliers_SupplierID").MapRightKey("Warehouses_WarehouseID"));
         }
     }
 }

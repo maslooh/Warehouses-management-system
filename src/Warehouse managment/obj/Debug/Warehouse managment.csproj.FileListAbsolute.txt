@@ -24,8 +24,6 @@ C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\Entit
 C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.SqlServer.dll
 C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.xml
 C:\projects\Warehouses-management-system\src\Warehouse managment\bin\Debug\EntityFramework.SqlServer.xml
-C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.AssemblyReference.cache
-C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.SuggestedBindingRedirects.cache
 C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.addWareHouseForm.resources
 C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.Form1.resources
 C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.updateWh.resources
@@ -37,3 +35,9 @@ C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Wareh
 C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.pdb
 C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.kinds.AddKind.resources
 C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.kinds.UpdateKind.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.AssemblyReference.cache
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse managment.csproj.SuggestedBindingRedirects.cache
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.supplieres.addSup.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.supplieres.updateSup.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.clients.addClient.resources
+C:\projects\Warehouses-management-system\src\Warehouse managment\obj\Debug\Warehouse_managment.clients.updateClient.resources

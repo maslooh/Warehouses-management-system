@@ -65,6 +65,18 @@
       <DependentUpon>addWareHouseForm.cs</DependentUpon>
     </Compile>
     <Compile Include="Client.cs" />
+    <Compile Include="clients\addClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clients\addClient.Designer.cs">
+      <DependentUpon>addClient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="clients\updateClient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="clients\updateClient.Designer.cs">
+      <DependentUpon>updateClient.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kind.cs" />
     <Compile Include="kinds\AddKind.cs">
       <SubType>Form</SubType>
@@ -80,6 +92,18 @@
     </Compile>
     <Compile Include="Model1.cs" />
     <Compile Include="Supplier.cs" />
+    <Compile Include="supplieres\addSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplieres\addSup.Designer.cs">
+      <DependentUpon>addSup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="supplieres\updateSup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="supplieres\updateSup.Designer.cs">
+      <DependentUpon>updateSup.cs</DependentUpon>
+    </Compile>
     <Compile Include="sysdiagram.cs" />
     <Compile Include="updateWh.cs">
       <SubType>Form</SubType>
@@ -96,8 +120,34 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Warehouse.cs" />
+    <Compile Include="Warehouse_managment_DBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Warehouse_managment_DBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse_managment_DBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Warehouse_managment_DBDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse_managment_DBDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Warehouse_managment_DBDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Warehouse_managment_DB_CLientsList.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Warehouse_managment_DB_CLientsList.xsd</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="addWareHouseForm.resx">
       <DependentUpon>addWareHouseForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clients\addClient.resx">
+      <DependentUpon>addClient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="clients\updateClient.resx">
+      <DependentUpon>updateClient.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -107,6 +157,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="kinds\UpdateKind.resx">
       <DependentUpon>UpdateKind.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplieres\addSup.resx">
+      <DependentUpon>addSup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="supplieres\updateSup.resx">
+      <DependentUpon>updateSup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="updateWh.resx">
       <DependentUpon>updateWh.cs</DependentUpon>
@@ -130,10 +186,55 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Warehouse_managment_DBDataSet.xsc">
+      <DependentUpon>Warehouse_managment_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Warehouse_managment_DBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Warehouse_managment_DBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Warehouse_managment_DBDataSet.xss">
+      <DependentUpon>Warehouse_managment_DBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Warehouse_managment_DBDataSet1.xsc">
+      <DependentUpon>Warehouse_managment_DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Warehouse_managment_DBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Warehouse_managment_DBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Warehouse_managment_DBDataSet1.xss">
+      <DependentUpon>Warehouse_managment_DBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Warehouse_managment_DBDataSet2.xsc">
+      <DependentUpon>Warehouse_managment_DBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Warehouse_managment_DBDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Warehouse_managment_DBDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Warehouse_managment_DBDataSet2.xss">
+      <DependentUpon>Warehouse_managment_DBDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Warehouse_managment_DB_CLientsList.xsc">
+      <DependentUpon>Warehouse_managment_DB_CLientsList.xsd</DependentUpon>
+    </None>
+    <None Include="Warehouse_managment_DB_CLientsList.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Warehouse_managment_DB_CLientsList.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Warehouse_managment_DB_CLientsList.xss">
+      <DependentUpon>Warehouse_managment_DB_CLientsList.xsd</DependentUpon>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
